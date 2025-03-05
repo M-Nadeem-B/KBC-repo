@@ -1,12 +1,7 @@
 import json
 import random
-import os
 import tkinter as tk
 from tkinter import messagebox
-
-# Change working directory to script's location
-script_directory = os.path.dirname(os.path.abspath(__file__))
-os.chdir(script_directory)
 
 class KBCGame:
     def __init__(self, root):

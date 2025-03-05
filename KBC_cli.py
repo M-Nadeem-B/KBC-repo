@@ -1,11 +1,6 @@
 import json
 import random
-import os
 import time
-
-# # Change working directory to the script's folder
-# script_directory = os.path.dirname(os.path.abspath(__file__))
-# os.chdir(script_directory)
 
 def load_questions(filename):
     """Load questions from a JSON file."""
